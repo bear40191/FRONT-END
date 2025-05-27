@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 60px;
+
+}
+header{
+    width: 100%;
+    height: 300px;
+    background: url(../img/header.jpg);
+    opacity: 0.2;
+}
+
+nav{
+    height: 50px;
+    background-color: blueviolet;
+}
+
+section{
+    width: 100%;
+    background-color: green;
+    min-height: 200px;
+}
+article{
+    
+    background-color: silver;
+    min-height: 300px;
+    width: 50%;
+    float:left;
+    
+}
+aside{
+    width: 50%;
+    background-color: blue;
+    height: 300px;
+    float: left;
+}
+.left{
+    float: left;
+    width: 100%;
+    
+}
+footer{
+    clear: both;
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 60px;
+}
+
