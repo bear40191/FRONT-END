@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>แบบฟอร์มใบลา</title>
+  <link rel="stylesheet" href="CSS/ssc.css">
+</head>
+<body>
+
+<div class="form-container">
+  <div class="header">
+    <div class="left-box"></div>
+    <div class="right-box">
+      วิทยาลัยเทคนิคสัตหีบ ต.บางเสร่<br>
+      อ.สัตหีบ จ.ชลบุรี 20250<br>
+      บ้านเลขที่ .......... หมู่ที่ ....... ซอย ......................<br>
+      ถนน ...................... ตำบล ......................<br>
+      อำเภอ ...................... จังหวัด ......................
+    </div>
+  </div>
+
+  <div class="date-line">
+    วันที่ <input type="text" class="dot-input" style="width: 20px;" >
+    เดือน<input type="text" class="dot-input" style="width: 100px;" >
+    พ.ศ <input type="text" class="dot-input" style="width: 100px;" >
+  </div>
+
+  <div class="section topic">
+    เรื่อง ขออนุญาต 
+    <label><input type="radio" name="leave_type" value="sick">ลาป่วย</label>
+    <label><input type="radio" name="leave_type" value="persernal">ลากิจ</label>
+  </div>
+
+  <div class="section">
+    เรียน ผู้อำนวยการวิทยาลัยเทคนิคสัตหีบ
+  </div>
+
+  <div class="section">
+    ด้วยข้าพเจ้า นาย/นางสาว <input type="text" class="dot-input" style="width: 250px;"> นักเรียน/นักศึกษา<br>
+    ระดับ <input type="text" class="dot-input" style="width: 50px;"> กลุ่มที่ <input type="text" class="dot-input" style="width: 15px;"> แผนกวิชา <input type="text" class="dot-input" style="width: 150px;"> เลขประจำตัว <input type="text" class="dot-input" style="width: 100px;"><br>
+    มีความประสงค์ขออนุญาต 
+    <label><input type="checkbox"> ลาป่วย</label>
+    <label><input type="checkbox"> ลากิจ</label><br>
+    เนื่องจาก .................................................................................................................<br><br>
+
+    จึงเรียนมาเพื่อขออนุญาตเรียน ตั้งแต่เวลา .......... น. วันที่ ......... เดือน ................. พ.ศ. ..........<br>
+    ถึงเวลา .......... น. วันที่ ......... เดือน ................. พ.ศ. ..........<br><br>
+
+    ขอแสดงความนับถือ<br><br>
+
+    ลงชื่อ .............................................................<br>
+    (.....................................................)
+  </div>
+</div>
+
+</body>
+</html>
