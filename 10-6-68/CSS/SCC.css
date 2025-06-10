@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Sarabun", sans-serif;
+}
+.container {
+    margin: 50px;
+    row-gap: 10px;
+    column-gap: 10px;
+  display: grid;
+  
+  background-color: dodgerblue;
+  padding: 10px;
+}
+
+.container > div {
+  background-color: #affffb;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+
+}
+.box1{
+    grid-column-start: 1;
+  grid-column-end: 4;
+}
+.box2{
+grid-row-start: 2;
+grid-row-end: 5;
+
+}
+.box5{
+    grid-column-start:2 ;
+    grid-column-end:4 ;
+    
+}
+
+.box3{
+    display: grid;
+    grid-template-columns: 500px;
+}

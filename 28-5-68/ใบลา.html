@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>แบบฟอร์มใบลา</title>
   <link rel="stylesheet" href="CSS/ssc.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -13,16 +16,16 @@
     <div class="right-box">
       วิทยาลัยเทคนิคสัตหีบ ต.บางเสร่<br>
       อ.สัตหีบ จ.ชลบุรี 20250<br>
-      บ้านเลขที่ .......... หมู่ที่ ....... ซอย ......................<br>
-      ถนน ...................... ตำบล ......................<br>
-      อำเภอ ...................... จังหวัด ......................
+      บ้านเลขที่ <input type="text" class="dot-input" style="width: 40px;" > หมู่ที่ <input type="text" class="dot-input" style="width: 10px;" >
+       ซอย <input type="text" class="dot-input" style="width: 20px;" ><br>
+      ถนน <input type="text" class="dot-input" style="width: 90px;" > ตำบล <input type="text" class="dot-input" style="width: 50px;" ><br>
+      อำเภอ <input type="text" class="dot-input" style="width: 50px;" >จังหวัด <input type="text" class="dot-input" style="width: 100px;" >
     </div>
   </div>
 
   <div class="date-line">
-    วันที่ <input type="text" class="dot-input" style="width: 20px;" >
-    เดือน<input type="text" class="dot-input" style="width: 100px;" >
-    พ.ศ <input type="text" class="dot-input" style="width: 100px;" >
+    วันที่ <input type="date" >
+    
   </div>
 
   <div class="section topic">
@@ -39,17 +42,19 @@
     ด้วยข้าพเจ้า นาย/นางสาว <input type="text" class="dot-input" style="width: 250px;"> นักเรียน/นักศึกษา<br>
     ระดับ <input type="text" class="dot-input" style="width: 50px;"> กลุ่มที่ <input type="text" class="dot-input" style="width: 15px;"> แผนกวิชา <input type="text" class="dot-input" style="width: 150px;"> เลขประจำตัว <input type="text" class="dot-input" style="width: 100px;"><br>
     มีความประสงค์ขออนุญาต 
-    <label><input type="checkbox"> ลาป่วย</label>
-    <label><input type="checkbox"> ลากิจ</label><br>
-    เนื่องจาก .................................................................................................................<br><br>
+    <label><input type="radio" name="" value="sick">ลาป่วย</label>
+    <label><input type="radio" name="leave_type" value="persernal">ลากิจ</label>
+    เนื่องจาก <input type="text" class="dot-input" style="width: 290px;"><br><br>
 
-    จึงเรียนมาเพื่อขออนุญาตเรียน ตั้งแต่เวลา .......... น. วันที่ ......... เดือน ................. พ.ศ. ..........<br>
-    ถึงเวลา .......... น. วันที่ ......... เดือน ................. พ.ศ. ..........<br><br>
+    จึงเรียนมาเพื่อขออนุญาตเรียน ตั้งแต่เวลา <input type="text" class="dot-input" style="width: 40px;"> น. วันที่ <input type="date"> 
+    <br>
+    ถึงเวลา <input type="time" class="dot-input" style="width: 100px;"> น. วันที่ <input type="date" > 
+    <br>
 
-    ขอแสดงความนับถือ<br><br>
+    <center>ขอแสดงความนับถือ</center><br><br>
 
-    ลงชื่อ .............................................................<br>
-    (.....................................................)
+    <center>ลงชื่อ .............................................................<br>
+    (.....................................................)</center>
   </div>
 </div>
 

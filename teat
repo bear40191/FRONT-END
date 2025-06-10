@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weekly Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    th, td {
+      border: 1px solid #999;
+      text-align: center;
+      padding: 8px;
+      font-size: 12px;
+      word-wrap: break-word;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    td[colspan] {
+      background-color: #e7f4ff;
+    }
+
+    .header-hour {
+      background-color: #fffacd;
+    }
+
+    .time-column {
+      width: 80px;
+      background-color: #f9f9f9;
+    }
+
+    .activity {
+      background-color: #d0f0c0;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Weekly Timetable</h2>
+  <table>
+    <tr>
+      <th rowspan="2">คาบที่</th>
+      <th rowspan="2">เวลา</th>
+      <th colspan="12" class="header-hour">วัน</th>
+    </tr>
+    <tr>
+      <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th>
+      <th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th>
+    </tr>
+
+    <!-- Monday -->
+    <tr>
+      <td rowspan="3">1</td>
+      <td class="time-column">08:00-09:00</td>
+      <td colspan="2">ท. Front-End<br>อ.ไพบูลย์</td>
+      <td colspan="2">เทคโนโลยีการจัดการฐานข้อมูล<br>31901-2007</td>
+      <td colspan="2"></td>
+      <td colspan="2">การประชุมในเทคโนโลยีสารสนเทศ<br>30001-1003</td>
+      <td colspan="2"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="time-column">09:00-10:00</td>
+      <td colspan="2">COM603<br>อ.ภานุวัฒน์</td>
+      <td colspan="2"></td>
+      <td colspan="2">อ.ณัฐวัฒน์</td>
+      <td colspan="2"></td>
+      <td colspan="2">COM403</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="time-column">10:00-11:00</td>
+      <td colspan="2"></td>
+      <td colspan="2"></td>
+      <td colspan="2">ท.ข้อมูลขนาดใหญ่<br>อ.จารึก</td>
+      <td colspan="2"></td>
+      <td colspan="2"></td>
+      <td></td>
+    </tr>
+
+    <!-- Add remaining days in similar pattern -->
+
+  </table>
+
+</body>
+</html>
